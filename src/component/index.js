@@ -1,5 +1,5 @@
 import { html } from 'snabbdom-jsx'
 
-const test = param =>
+export const Test = param =>
   <div>{param}</div>
 

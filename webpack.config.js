@@ -20,7 +20,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.jsx?$/, loader: 'babel' },
-      { test: /\.styl$/, loader: 'style!css!stylus' }
+      { test: /\.styl$/, loader: 'style!css?modules&sourceMap&localIdentName=[local]___[hash:base64:5]!resolve-url!stylus?sourceMap' }
     ]
   },
   devServer: {
