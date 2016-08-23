@@ -4,12 +4,9 @@ import {p, makeDOMDriver} from '@cycle/dom'
 import {makeHTTPDriver} from '@cycle/http'
 import {html} from 'snabbdom-jsx'
 
-import {red, green} from './styles/index.styl'
+import { OAuth } from 'oauth'
 
-const Card = ({ content }, title) => <div>
-  <h1 className={red}>{title}</h1>
-  <p className={green}>{content}</p>
-</div>
+import {Card} from './component'
 
 const main = () => ({
   DOM: xs.of({title: 'my card', content: 'my content: here is my article'})

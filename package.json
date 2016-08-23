@@ -33,6 +33,7 @@
     "@cycle/dom": "^12.2.1",
     "@cycle/http": "^10.2.1",
     "@cycle/xstream-run": "^3.1.0",
+    "oauth": "^0.9.14",
     "xstream": "^6.1.0"
   },
   "ava": {
